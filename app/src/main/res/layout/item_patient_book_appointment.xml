@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:backgroundTint="@color/orange"
+    app:cardCornerRadius="30dp"
+    android:focusable="true">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="104dp"
+        android:layout_height="84dp"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="0dp"
+        android:layout_margin="10dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rounded_user_image"
+            android:scaleType="fitXY"
+            android:src="@drawable/doctor_profile"
+            android:background="@color/grey"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/tvPatientDoctorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"/>
+    <TextView
+        android:id="@+id/tvPatientDoctorSpecilization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="60dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"/>
+<TextView
+        android:id="@+id/tvPatientDoctorEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:text="TextView"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"/>
+
+
+        <Button
+            android:id="@+id/buttonBookAppointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:focusable="false"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/blue"
+            android:text="@string/book"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textColor="@color/teal_200"
+         />
+
+
+
+</androidx.cardview.widget.CardView>

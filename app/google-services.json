@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "697323302462",
+    "project_id": "pms-patientmanagementsystem",
+    "storage_bucket": "pms-patientmanagementsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697323302462:android:d7213ac8efb7e47ab1ab6f",
+        "android_client_info": {
+          "package_name": "com.example.pms_patientmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697323302462-n0iugiki2b0172h2rtnnir8gbiiicn5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHnKnn9vzY1-Req9n_pFU8mjw0eCO2YME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697323302462-n0iugiki2b0172h2rtnnir8gbiiicn5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

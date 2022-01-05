@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/drawable/edit_text_of_prescription.xml" value="0.2203125" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/drawable/patien_data_from_firebase.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/drawable/round_button.xml" value="0.2203125" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/drawable/round_image_view.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/about_us.xml" value="0.2" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/after_clicking_book.xml" value="0.18" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/alternate_patient_register.xml" value="0.21" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/appoitment_completed_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/booking_confirmation_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/change_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/contact_us.xml" value="0.18" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/doctor_cancel_appointment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/doctor_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/doctor_previous_appointment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/doctor_register.xml" value="0.25" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/doctor_scheduled_appointment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/give_prescription.xml" value="0.22" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/item_doctor_cancel_appointment.xml" value="0.25" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/item_doctor_previous_appointment.xml" value="0.33" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/item_doctor_scheduled_appointment.xml" value="0.25" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/item_patient_book_appointment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/item_patient_cancel_appointment.xml" value="0.1" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/item_patient_previous_appointment.xml" value="0.25" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/login.xml" value="0.33" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/login_doctor.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/login_patient.xml" value="0.18" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/patient_book_appointment.xml" value="0.22" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/patient_cancel_appointment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/patient_dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/patient_previous_appointment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/patient_register.xml" value="0.18" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/popup_book_appointment.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/round_button.xml" value="0.1480978260869565" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/layout/view_prescription.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/menu/menu_doctor_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/menu/menu_main_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shubham/Downloads/PMSPatientManagementSystem/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.11302083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <devs.mulham.horizontalcalendar.HorizontalCalendarView
+        android:id="@+id/horizontalCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/tv9to12"
+        android:layout_width="155dp"
+        android:layout_height="46dp"
+        android:layout_above="@+id/tv4to7"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toStartOf="@+id/tv1to3"
+        android:background="@color/grey"
+        android:text="   9 - 12  "
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1to3" />
+
+    <TextView
+        android:id="@+id/tv1to3"
+        android:layout_width="155dp"
+        android:layout_height="46dp"
+        android:layout_above="@+id/tv8to11"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+
+
+        android:layout_marginTop="52dp"
+        android:background="@color/grey"
+        android:text="   1 - 3  "
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.707"
+        app:layout_constraintStart_toEndOf="@+id/tv8to11"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalCalendar" />
+
+    <TextView
+        android:id="@+id/tv4to7"
+        android:layout_width="155dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/grey"
+        android:text="   4 - 7  "
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tv9to12"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv8to11" />
+
+    <TextView
+        android:id="@+id/tv8to11"
+        android:layout_width="155dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="52dp"
+        android:background="@color/grey"
+        android:text="   8 - 11  "
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalCalendar" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginVertical="50dp"
+        android:fontFamily="serif-monospace"
+        android:text="Select date and time of Appointment"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonConfirmAppointment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonConfirmAppointment"
+        android:layout_width="177dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginVertical="600dp"
+        android:layout_marginTop="540dp"
+        android:background="@color/teal_700"
+        android:text="@string/confirm"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/etDiseaseAfterClickingBook"
+        android:layout_width="288dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="108dp"
+        android:hint="YourDisease"
+        app:hintTextColor="@color/white"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalCalendar">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/teal_700"
+
+            android:textColor="@color/violet"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ProgressBar
+        android:id="@+id/afterClickingBookProgressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

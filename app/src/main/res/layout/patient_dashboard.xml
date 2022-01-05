@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:titleMarginStart="40dp"
+            app:logo="@drawable/ic_menu_24"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" >
+        <TextView
+                android:id="@+id/toolbarTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <Button
+        android:id="@+id/buttonBookAppointment"
+        android:layout_width="247dp"
+        android:layout_height="211dp"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/round_button"
+
+        android:shadowColor="@color/orange"
+        android:text="@string/book_appointment"
+        android:textSize="25dp"
+
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCancelAppointment"
+        android:layout_width="247dp"
+        android:layout_height="211dp"
+        android:layout_marginTop="72dp"
+
+        android:background="@drawable/round_button"
+        android:shadowColor="@color/orange"
+        android:text="@string/cancel_appointment"
+
+        android:textSize="25dp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBookAppointment" />
+
+    <Button
+        android:id="@+id/buttonPreviousAppointment"
+        android:layout_width="247dp"
+        android:layout_height="211dp"
+
+        android:layout_marginTop="72dp"
+        android:background="@drawable/round_button"
+        android:shadowColor="@color/orange"
+
+        android:text="@string/previous_appointment"
+
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCancelAppointment" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

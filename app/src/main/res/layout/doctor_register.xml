@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue">
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/etDoctorRegisterFullName"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="128dp"
+
+
+        android:hint="@string/name"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/orange"
+            android:textColor="@color/violet"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvEnterDoctorRegisterDetails"
+        android:layout_width="255dp"
+        android:layout_height="26dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/enter_details"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/etDoctorRegisterFullName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etDoctorRegisterEmail"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+
+        android:hint="@string/email"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDoctorRegisterFullName" >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@color/orange"
+            android:textColor="@color/violet"
+            android:textStyle="bold"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etDoctorRegisterDegree"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+
+        android:hint="@string/degree"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDoctorRegisterEmail" >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:textColor="@color/violet"
+            android:textStyle="bold"
+            android:background="@color/orange"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etDoctorRegisterSpecialization"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+
+        android:hint="@string/specialization"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDoctorRegisterDegree" >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:textColor="@color/violet"
+            android:textStyle="bold"
+            android:background="@color/orange"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etDoctorRegisterPassword"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+
+        android:hint="@string/password"
+        app:passwordToggleEnabled="true"
+
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDoctorRegisterSpecialization">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:textColor="@color/violet"
+            android:textStyle="bold"
+            android:background="@color/orange"
+            android:inputType="textPassword"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etDoctorRegisterConfirmPassword"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+
+        android:hint="@string/confirm_password"
+        app:passwordToggleEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDoctorRegisterPassword">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:textColor="@color/violet"
+            android:textStyle="bold"
+            android:background="@color/orange"
+            android:inputType="textPassword"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="131dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDoctorRegisterConfirmPassword" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDoctorRegisterConfirmPassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

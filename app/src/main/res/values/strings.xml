@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PMS-PatientManagementSystem</string>
+    <string name="register">Register</string>
+    <string name="login">Log In</string>
+    <string name="patient">Patient</string>
+    <string name="doctor">Doctor</string>
+    <string name="name">Your Full Name</string>
+    <string name="enter_details">Enter Your Details</string>
+    <string name="email">Your E-mail ID</string>
+    <string name="degree">Your Highest Degree</string>
+    <string name="specialization">Your Specialization</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="cancel_appointment">Cancel Appointment</string>
+    <string name="scheduled_appointment">Scheduled Appointment</string>
+    <string name="book">Book</string>
+    <string name="confirm">Confirm</string>
+    <string name="previous_appointment">Previous Appointment</string>
+</resources>
